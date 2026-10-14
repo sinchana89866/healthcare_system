@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
-import { LanguageProvider } from "./components/i18n/LanguageContext.jsx";
+import { LanguageProvider } from "./i18n/LanguageContext.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
